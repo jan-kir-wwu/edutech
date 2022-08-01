@@ -41,6 +41,10 @@ p {
   margin-top: 10px;
 }
 
+.block {
+  display: none;
+}
+
 #title_tr {
   background-color: Azure;
 }
