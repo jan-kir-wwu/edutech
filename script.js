@@ -20,3 +20,22 @@ const showHide = function(id) {
     x.style.display = "none";
   }
 }
+
+const login = function() {
+
+  label = document.getElementById('loginbutton');
+  const idname = label.textContent;
+
+  switch (idname) {
+    case "Anna":
+      window.location.href = 'index2.html';;
+      break;
+
+    case "Yang":
+      window.location.href = 'html/lowgrade.html';
+      break;
+
+    default:
+      break;
+  }
+}
