@@ -22,20 +22,23 @@ const showHide = function(id) {
 }
 
 const login = function() {
-
-  label = document.getElementById('loginbutton');
-  const idname = label.textContent;
+  txtform = document.getElementById('idlabel');
+  const idname = txtform.value;
 
   switch (idname) {
     case "Anna":
-      window.location.href = 'index2.html';;
+      window.location = 'index2.html';
       break;
 
     case "Yang":
-      window.location.href = 'html/lowgrade.html';
+      window.location = 'html/lowgrade.html';
       break;
 
     default:
       break;
   }
+}
+
+function altvid() {
+  document.getElementById('video').src = 'https://www.youtube.com/embed/tgbNymZ7vqY';
 }

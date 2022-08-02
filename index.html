@@ -16,7 +16,12 @@
     <h3>Please enter your student ID and password.</h3>
     <div class="form-element">
       <label for="id">ID</label>
-      <input type="text" name="idlabel" id="idlabel" /> <br> <br>
+      <input type="text" name="idlabel" id="idlabel" list="names" />
+      <datalist id="names">
+        <option value="Yang">Yang</option>
+        <option value="Anna">Anna</option>
+      </datalist>
+      <br> <br>
 
       <label for="password">Password</label>
       <input type="password" name="pwlabel" id="pwlabel" /> <br><br>
